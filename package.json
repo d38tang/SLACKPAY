@@ -25,6 +25,10 @@
     },
     "source": "slack"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
   "devDependencies": {
     "eslint-config-recommended": "^2.0.0"
   }
