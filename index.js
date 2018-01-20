@@ -79,6 +79,7 @@ MongoClient.connect(config.databaseUrl, function(error, database){
 
   app.post('/adduser', function(req, res) {
     let user = req.body.body
+    user.transactions = []
     addUser(user, db, res)
   })
 
@@ -97,5 +98,4 @@ MongoClient.connect(config.databaseUrl, function(error, database){
   app.listen(app.get('port'), function() {
     console.log('Example app listening on port', app.get('port'))
   })
-
 });
