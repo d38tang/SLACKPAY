@@ -16,7 +16,7 @@ Add transaction = POST /addtransaction
 ```
   body {
     senderId: "12",
-    transactionId: "24,
+    receiverId: "24,
     amount: "7.00"
   }
   ```
