@@ -1,6 +1,6 @@
 # U of T Hacks Slack Bot
 
-Backend endpoints:
+Backend endpoints at https://slack-pay-api.herokuapp.com/:
 
 Get transaction history with id = GET /history?id=
 
