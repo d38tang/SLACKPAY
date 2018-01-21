@@ -2,19 +2,21 @@
 
 Backend endpoints at https://slack-pay-api.herokuapp.com/:
 
-Get transaction history with id = GET /history?id=
+Get transaction history with id = GET /history?id=<userid>
 
 Add user = POST /adduser
-
+```
   body {
-    name:
-    id: 
+    name: "Testing",
+    id: "12"
   }
+  ```
   
 Add transaction = POST /addtransaction
-
+```
   body {
-    senderId:
-    transactionId:
-    amount:
+    senderId: "12",
+    transactionId: "24,
+    amount: "7.00"
   }
+  ```
